@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moja spletna trgovina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body onload="">
+    <header class="glava">
+        <p>Alenova Trgovina</p>
+        <p id="ura" ></p>
+        <p>AKCIJA TRAJA LE ŠE: </p>
+        <p id="odstevanje"></p>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Domača stran</a>
+                    <a class="nav-link" href="trgovina.html">Trgovina</a>
+                    <a class="nav-link" href="checkout.html">Košarica</a>
+                    <a class="nav-link" href="contact.html">Kontakti</a>
+                    <a class="nav-link" href="narocnina.html">Naročnina</a>
+                    <a class="nav-link" href="dodajIzdelek.html">Dodaj Izdelek</a>
+                    <a class="nav-link active" href="login.html">Prijava</a>
+                    <a class="nav-link active" href="registracija.html">Registracija</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+        
+    <h1 class="naslov">Prijavi se</h1>
+
+    <div class="vloga">
+
+        
+            <label for="uporabniskoIme">Uporabnisko Ime</label><br>
+            <input type="text" id="uporabniskoIme" name="uIme"><br>
+            <label for="password">Geslo</label><br>
+            <input type="password" id="vnesenoGeslo" name="uGeslo" ><br>
+            <br>
+            <input type="reset">
+            <button onclick=prijava()>Prijavi se</button>
+       
+
+    </div>
+    
+
+
+
+
+    
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="#">Alen Kaučič</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+    <script src = "../js/index.js"></script>
+
+</body>
+</html>
